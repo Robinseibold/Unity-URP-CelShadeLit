@@ -1,3 +1,6 @@
+
+![DevelopmentImage_Character_02](https://user-images.githubusercontent.com/6736119/165969021-75450015-e4a2-4926-8bc5-bc751272de5a.png)
+
 # Cel Shade Lit
 A custom made Unity URP cel shader that supports multiple lights and shadows.
 
