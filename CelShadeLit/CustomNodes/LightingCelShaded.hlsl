@@ -28,13 +28,10 @@ struct SurfaceVariables {
 
 };
 
-// Name?
 float3 CalculateCelShading(Light l, SurfaceVariables s) {
    float attenuation = 
       smoothstep(0.0f, s.ec.distanceAttenuation, l.distanceAttenuation) * 
       smoothstep(0.0f, s.ec.shadowAttenuation, l.shadowAttenuation);
-
-   //return l.shadowAttenuation;
 
    float diffuse = saturate(dot(s.normal, l.direction));
    diffuse *= attenuation;
